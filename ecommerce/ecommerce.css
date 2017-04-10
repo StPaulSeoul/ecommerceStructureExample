@@ -1,0 +1,35 @@
+header {
+    width: 100%;
+    height: 150px;
+    background: black;
+}
+
+aside {
+    width: 25%;
+    min-height: 100vh;
+    float: left;
+    background: #DDDDDD;
+}
+#content {
+    width: 75%;
+    min-height: 100vh;
+    float:left;
+}
+
+.card {
+    background: #EEEEEE;
+    height: 220px;
+    width: 140px;
+    float: left;
+    margin: 20px;
+    line-height: 0;
+    cursor: pointer;
+}
+
+.card > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 180px;
+}
